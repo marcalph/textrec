@@ -7,7 +7,7 @@ import torch
 import pytorch_lightning as pl
 import wandb
 
-from src.app import lit_models
+from src.textrec import lit_models
 
 
 # In order to ensure reproducible experiments, we must set random seeds.

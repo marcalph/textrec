@@ -6,8 +6,8 @@ import argparse
 from torch.utils.data import ConcatDataset, DataLoader
 import pytorch_lightning as pl
 
-from src.app import util
-from src.app.data.util import BaseDataset
+from src.textrec import util
+from src.textrec.data.util import BaseDataset
 
 
 def load_and_print_info(data_module_class) -> None:
